@@ -353,29 +353,29 @@ h1 {
   position: relative; }
   #launching .shapes-container {
     margin-top: 100px; }
-  #launching .marketing-scene {
-    width: 60%;
+  #launching .rocket {
+    width: 350px;
     margin: auto 0; }
   #launching .cloud {
     width: 220px;
-    left: 70px;
-    top: 0px; }
+    left: 210px;
+    top: 120px; }
   #launching .cloud2 {
     width: 220px;
-    left: 460px;
-    top: -70px; }
+    left: 570px;
+    top: 0px; }
   #launching .message {
-    width: 300px;
-    left: 80px;
-    bottom: -90px; }
+    width: 450px;
+    left: -50px;
+    bottom: 90px; }
   #launching .triangle {
-    width: 170px;
-    right: -50px;
-    bottom: 270px; }
+    width: 180px;
+    right: 200px;
+    bottom: 250px; }
   #launching .search {
-    width: 170px;
-    right: -50px;
-    bottom: 270px; }
+    width: 400px;
+    right: 240px;
+    bottom: -30px; }
 
 /* ================================================================= */
 /* Download */
