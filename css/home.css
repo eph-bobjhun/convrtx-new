@@ -1,0 +1,484 @@
+@font-face {
+  font-family: 'Samsung Sharp Sans';
+  src: local("Samsung Sharp Sans"), url("../fonts/samsungsharpsans.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Medium';
+  src: local("Samsung Sharp Sans Medium"), url("../fonts/samsungsharpsans-medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  src: local("Samsung Sharp Sans Bold"), url("../fonts/samsungsharpsans-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Gilroy Light';
+  src: local("Gilroy Light"), url("../fonts/gilroy/Gilroy-Light.otf") format("woff"); }
+
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  src: local("Gilroy ExtraBold"), url("../fonts/gilroy/Gilroy-ExtraBold.otf") format("woff"); }
+
+#index_page {
+  background: url("../img/homepage/hero.png");
+  background-repeat: no-repeat;
+  background-position: top center; }
+
+.shapes-container {
+  height: auto !important; }
+
+.shapes-container .figure {
+  position: absolute;
+  z-index: 999; }
+
+.shapes-container {
+  z-index: -1; }
+
+nav li a {
+  font-family: 'Gilroy Light'; }
+
+nav .active {
+  color: #000 !important;
+  position: relative; }
+
+nav .active::after {
+  background-color: #5956E9;
+  content: '';
+  display: block;
+  height: 2px;
+  bottom: -5px;
+  position: absolute;
+  width: 30px; }
+
+h1 {
+  font-family: 'Samsung Sharp Sans Bold';
+  font-weight: 900;
+  font-size: 87px;
+  color: #0C0906; }
+
+.mini-heading {
+  font-family: 'Gilroy Light';
+  font-weight: 700 !important;
+  font-size: 40px;
+  font-size: 27px;
+  line-height: 107%;
+  letter-spacing: -0.03em;
+  color: #4C40F7; }
+
+.sub-title {
+  font-family: 'Gilroy Light';
+  font-weight: 700 !important;
+  font-size: 30px;
+  line-height: 40px;
+  color: #3C3E42; }
+
+.text-center {
+  text-align: center; }
+
+.bg-purple {
+  background: #5575E8 !important; }
+
+.logo img {
+  width: 150px !important;
+  position: absolute;
+  top: 50px; }
+
+.web-btn:hover {
+  filter: brightness(95%); }
+
+.btn-medium {
+  font-family: 'Gilroy ExtraBold';
+  font-size: 18px;
+  padding: 30px 250px; }
+
+/* Hero */
+.hero-content {
+  margin-top: 150px; }
+
+.hero {
+  overflow: visible; }
+
+.hero-text {
+  margin-top: 200px; }
+
+.headline .man-rocket {
+  width: 600px;
+  left: 550px; }
+
+.headline .bg {
+  width: 400px;
+  right: 0px;
+  top: 100px; }
+
+.headline .flower-pot {
+  width: 130px;
+  right: -92px;
+  top: 250px; }
+
+.headline .mouse {
+  width: 300px;
+  right: -150px;
+  top: 550px; }
+
+.headline .ball {
+  width: 230px;
+  left: 300px;
+  top: 50px; }
+
+/* Awards */
+#awards {
+  padding-top: 200px; }
+
+#awards img {
+  width: 100%; }
+
+/* Light Bulb Moments */
+#light-bulb {
+  padding: 30rem 0 12rem 0px; }
+  #light-bulb .container {
+    position: relative; }
+  #light-bulb .flower {
+    position: absolute;
+    width: 420px;
+    left: -100px;
+    top: -120px; }
+  #light-bulb .lamp {
+    position: absolute;
+    width: 600px;
+    right: -350px;
+    top: -220px; }
+  #light-bulb .cloud {
+    position: absolute;
+    width: 250px;
+    left: 100px;
+    top: -420px; }
+  #light-bulb .bucket {
+    width: 300px; }
+
+/* Make Business Plan */
+#business_plan {
+  padding: 10rem 0;
+  position: relative; }
+  #business_plan .business-scene {
+    width: 100%; }
+  #business_plan .cursor {
+    position: absolute;
+    width: 9vw;
+    top: 4vw;
+    left: 35vw; }
+  #business_plan .business-card {
+    position: absolute;
+    width: 20vw;
+    top: 10vw;
+    right: 0vw; }
+  #business_plan .hand-left {
+    position: absolute;
+    width: 17vw;
+    top: 15vw;
+    left: 2vw; }
+  #business_plan .hand-right {
+    position: absolute;
+    width: 20vw;
+    bottom: 0vw;
+    right: -2vw; }
+
+#business_legit {
+  padding: 10rem 0;
+  position: relative; }
+  #business_legit .man-checker {
+    width: 1200px;
+    margin-left: 55px; }
+  #business_legit .cubes {
+    width: 250px;
+    left: -100px;
+    top: 0px; }
+  #business_legit .ball-blue {
+    width: 160px;
+    right: 180px;
+    top: 170px; }
+  #business_legit .files {
+    width: 450px;
+    left: 100px;
+    bottom: 300px; }
+  #business_legit .message {
+    width: 300px;
+    right: 150px;
+    bottom: 300px; }
+  #business_legit .listing {
+    z-index: -1;
+    height: 500px;
+    left: -200px;
+    top: 350px; }
+
+/* Adoption */
+#adoption {
+  padding: 10rem 0;
+  position: relative; }
+  #adoption .shapes-container {
+    margin-top: 300px; }
+  #adoption .flat-monitor {
+    width: 50%;
+    margin: auto 0; }
+  #adoption .cylinder-red {
+    width: 120px;
+    left: 220px;
+    top: -150px; }
+  #adoption .cylinder-green {
+    width: 100px;
+    right: 200px;
+    top: -10px; }
+  #adoption .compas {
+    width: 150px;
+    left: 180px;
+    bottom: 20px; }
+  #adoption .pie-chart {
+    z-index: -1;
+    width: 320px;
+    right: 120px;
+    bottom: 0px;
+    z-index: 1; }
+
+/* Funding */
+#funding {
+  padding: 10rem 0;
+  position: relative; }
+  #funding .shapes-container {
+    margin-top: 200px; }
+  #funding .sim {
+    width: 90%; }
+  #funding .ball-yellow {
+    width: 150px;
+    left: -120px;
+    top: 200px; }
+  #funding .files {
+    width: 350px;
+    left: 0px;
+    top: 230px; }
+  #funding .phone-circle-graph {
+    width: 100px;
+    right: 230px;
+    top: 100px; }
+  #funding .cubes {
+    width: 200px;
+    right: -50px;
+    top: -80px; }
+  #funding .dollar-coin {
+    width: 300px;
+    left: 370px;
+    top: -80px; }
+  #funding .calculator {
+    width: 300px;
+    left: 300px;
+    bottom: 120px; }
+
+/* User Experience */
+#user_experience {
+  padding: 10rem 0;
+  position: relative; }
+  #user_experience .shapes-container {
+    margin-top: 200px; }
+  #user_experience .user-experience {
+    width: 80%;
+    margin: auto 0; }
+  #user_experience .marker {
+    width: 350px;
+    left: 400px;
+    top: -80px; }
+  #user_experience .hand-right {
+    width: 300px;
+    right: 120px;
+    top: 50px; }
+  #user_experience .cubes {
+    width: 250px;
+    right: 0px;
+    top: 350px; }
+
+/* Good Code */
+#good_code {
+  padding: 5rem 0;
+  position: relative; }
+  #good_code .shapes-container {
+    margin-top: 200px;
+    margin-bottom: 100px; }
+  #good_code .blue-scene {
+    width: 60%;
+    margin: auto 0; }
+  #good_code .code {
+    width: 280px;
+    left: 70px;
+    top: -140px; }
+  #good_code .color {
+    width: 280px;
+    left: 10px;
+    bottom: 10px; }
+  #good_code .font {
+    width: 320px;
+    right: 0px;
+    top: -150px; }
+  #good_code .mouse2 {
+    width: 330px;
+    right: -40px;
+    bottom: -120px; }
+
+/* Competitors */
+#competitors {
+  padding: 5rem 0;
+  position: relative; }
+  #competitors .shapes-container {
+    margin-top: 100px; }
+  #competitors .marketing-scene {
+    width: 60%;
+    margin: auto 0; }
+  #competitors .mega-phone {
+    width: 220px;
+    left: 70px;
+    bottom: 0px; }
+  #competitors .cubes {
+    width: 220px;
+    left: 460px;
+    bottom: -70px; }
+  #competitors .hand-right-pink {
+    width: 300px;
+    right: 80px;
+    bottom: -90px; }
+  #competitors .ball-yellow {
+    width: 170px;
+    right: -50px;
+    top: 270px; }
+  #competitors .lets-chat {
+    margin-top: 100px; }
+
+/* Launching */
+#launching {
+  padding: 5rem 0;
+  position: relative; }
+  #launching .shapes-container {
+    margin-top: 100px; }
+  #launching .marketing-scene {
+    width: 60%;
+    margin: auto 0; }
+  #launching .cloud {
+    width: 220px;
+    left: 70px;
+    top: 0px; }
+  #launching .cloud2 {
+    width: 220px;
+    left: 460px;
+    top: -70px; }
+  #launching .message {
+    width: 300px;
+    left: 80px;
+    bottom: -90px; }
+  #launching .triangle {
+    width: 170px;
+    right: -50px;
+    bottom: 270px; }
+  #launching .search {
+    width: 170px;
+    right: -50px;
+    bottom: 270px; }
+
+/* ================================================================= */
+/* Download */
+/* ================================================================= */
+.vertically-align {
+  display: flex;
+  align-items: center; }
+
+.full-width {
+  width: 100%; }
+
+#download {
+  background: #F5F8FF;
+  padding-top: 150px;
+  padding-bottom: 100px; }
+
+#download h4 {
+  font-family: 'Gilroy Light';
+  font-size: 30px;
+  line-height: 112%;
+  color: #FFFFFF; }
+
+#download button {
+  font-size: 16px;
+  color: #26272A;
+  font-weight: 600; }
+
+#download .shapes-container {
+  z-index: 0; }
+
+#download h1, #download p {
+  z-index: 1;
+  position: relative; }
+
+#download .web-btn {
+  box-shadow: 20px 21px 94px 40px rgba(36, 47, 122, 0.23);
+  border-radius: 20px; }
+
+#download .circle-1 {
+  width: 211px;
+  height: 211px;
+  left: 292px;
+  top: -240px;
+  background: #CFE15E;
+  mix-blend-mode: normal;
+  transform: matrix(1, 0, 0, -1, 0, 0); }
+
+#download .circle-2 {
+  width: 478px;
+  height: 478px;
+  left: 5px;
+  top: -230px;
+  background: #FAEAFF;
+  mix-blend-mode: normal;
+  transform: matrix(1, 0, 0, -1, 0, 0); }
+
+.grid-blue-container {
+  background: url("../img/download/bg-blue.png");
+  background-repeat: no-repeat;
+  border-radius: 31px;
+  padding: 10px; }
+
+.grid-blue {
+  min-height: 650px;
+  width: 100%;
+  background: url("../img/download/outer-blue.png");
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: relative;
+  top: -30px;
+  left: 15px;
+  padding: 40px; }
+
+.grid-orange-container {
+  background: url("../img/download/bg-orange.png");
+  background-repeat: no-repeat;
+  border-radius: 31px;
+  padding: 10px; }
+
+.grid-orange {
+  min-height: 650px;
+  width: 100%;
+  background: url("../img/download/outer-orange.png");
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: relative;
+  top: -30px;
+  left: 15px;
+  padding: 40px; }
+
+.grid-green-container {
+  background: url("../img/download/bg-green.png");
+  background-repeat: no-repeat;
+  border-radius: 31px;
+  padding: 10px; }
+
+.grid-green {
+  min-height: 650px;
+  width: 100%;
+  background: url("../img/download/outer-green.png");
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  position: relative;
+  top: -30px;
+  left: 15px;
+  padding: 40px; }
