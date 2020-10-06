@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap Styles-->
     <link type="style" rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom Styles-->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/home.css" />
 
     <title>Homepage</title>
@@ -19,7 +21,7 @@
       <!--header -->
       <header>
         <div class="container web-container">
-          <div class="row" style="position: relative;">
+          <div class="row">
             <!-- logo -->
             <a href="#" rel="nofollow noopener" class="logo col-md-2">
               <img src="./img/logo-new.png" alt="logo" srcset="" />
@@ -28,7 +30,7 @@
             <nav class="col-md-6 col-xl-5 col-sm-6">
               <ul class="nav">
                 <li class="nav-item active">
-                  <a href="#" rel="nofollow noopener">Home</a>
+                  <a href="index.html" rel="nofollow noopener">Home</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" rel="nofollow noopener">Clients</a>
@@ -37,7 +39,7 @@
                   <a href="#" rel="nofollow noopener">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" rel="nofollow noopener">Portfolio</a>
+                  <a href="portfolio.html" rel="nofollow noopener">Portfolio</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" rel="nofollow noopener">Contact Us</a>
@@ -46,7 +48,7 @@
             </nav>
             <div class="drop-down dn">12321</div>
             <div class="connect col-md-3 col-sm-6">
-              <div class="web-btn web-btn--radius text-white bg-purple">Lets Work Together</div>
+              <div class="web-btn btn-small web-btn--radius text-white bg-purple">Lets Work Together</div>
             </div>
           </div>
         </div>
@@ -58,21 +60,24 @@
             <!-- left side -->
             <div class="headline col-md-12 pl-0 mr-auto tax-shapes">
               <!-- shapes -->
+
+              <img src="./img/heart-string.png" class="figure heart-string" alt="heart string" />
+
               <div class="shapes-container">
                 <div class="equal-sides">
                   <img src="./img/ball.png" class="figure ball" alt="ball" />
+                  <img src="./img/homepage/cube-white.png" class="figure cube-white" alt="cube white" />
                   <img src="./img/flower-pot.png" class="figure flower-pot" alt="flower pot" />
                   <img src="./img/bg.png" class="figure bg" alt="bg" />
                   <img src="./img/mouse.png" class="figure mouse" alt="mouse" />
                   <img src="./img/man-rocket.png" class="figure man-rocket" alt="man rocket" />
-                  <!--<div class="shape circle-3"></div>
+
                   <div class="shape circle-1"></div>
-                  <div class="shape circle-2"></div>-->
                 </div>
               </div>
               <div class="hero-text">
                 <p class="mini-heading">Convrtx</p>
-                <h1>We Make Ideas, <br />Known!</h1>
+                <h2>We Make Ideas, <br /><span class="underlined full">Known!</span></h2>
                 
               </div>
             </div>
@@ -102,38 +107,49 @@
     <!-- ============================================ Light Bulb Section ================================================ -->
     <section id="light-bulb" class="overflow-hidden">
       <div class="container">
-
         <img src="./img/homepage/cloud.png" class="cloud" alt="cloud" />
-        <img src="./img/homepage/flower.png" class="flower" alt="flower" />
-
-        <p class="mini-heading text-center">
-          We Are The Studio Aimed At
-        </p>
-        <h1 class="text-center">
-          The Light Bulb<br>Moments
-        </h1>
-        <p class="sub-title text-center pt-5">
-          A great app idea can come from anywhere …but not everyone<br>
-          can take it to unicorn levels
-        </p>
-
-        <img src="./img/homepage/lamp.png" class="lamp" alt="lamp" />
-        <div class="text-center">
-          <img src="./img/homepage/bucket.png" class="bucket" alt="bucket" />
+      </div>
+      <div class="container">
+        <div class="container-center">
+          <div class="shapes-container">
+            <div class="equal-sides">
+              <div class="shape circle-1"></div>
+            </div>
+          </div>
+          <div class="shapes-container">
+            <div class="equal-sides">
+              <img src="./img/string.png" class="figure string" alt="string" />
+            </div>
+          </div>
+          <img src="./img/homepage/flower.png" class="flower" alt="flower" />
+          <p class="mini-heading text-center">
+            We Are The Studio Aimed At
+          </p>
+          <h2 class="text-center">
+            The Light Bulb<br><span class="underlined excess">Moments</span>
+          </h2>
+          <p class="sub-title text-center pt-5">
+            A great app idea can come from anywhere …but not everyone<br>
+            can take it to unicorn levels
+          </p>
+          <img src="./img/homepage/lamp.png" class="lamp" alt="lamp" />
+          <div class="text-center">
+            <img src="./img/homepage/bucket.png" class="bucket" alt="bucket" />
+          </div>
         </div>
-          
       </div>
     </section>
 
     <!-- ============================================ Business Plan Section ================================================ -->
     <section id="business_plan" class="overflow-hidden">
-      <div class="container">
 
-        <h1>
-          We help you <br>
-          make a business plan
-        </h1>
-        <p class="sub-title pt-4">
+      <h2 class="text-center">
+        We Help You Make a<br>
+        <span class="underlined">Sustainable Business Model</span>
+      </h2>
+
+      <div class="container">
+        <p class="sub-title text-center pt-4">
           Turns out your competition is ruthless.
         </p>
 
@@ -146,6 +162,18 @@
             <img src="./img/homepage/hand-right.png" class="hand-right" alt="hand right" />
           </div>
         </div>
+        
+        <div class="container lets-chat">
+          <div class="text-center">
+            <button class="web-btn web-btn--radius text-white bg-purple btn-medium">Let's Chat</button>
+          </div>
+        </div>
+
+        <div class="shapes-container">
+          <div class="equal-sides">
+            <div class="shape circle-1"></div>
+          </div>
+        </div>
 
       </div>
     </section>
@@ -154,12 +182,18 @@
     <section id="business_legit" class="overflow-hidden">
       <div class="container">
 
-        <h1 class="text-center">
-          Making <br>your Business Legit
-        </h1>
+        <h2 class="text-center">
+          Making <br><span class="underlined">your Business Legit</span>
+        </h2>
         <p class="sub-title text-center pt-4">
           Helping you our with the paperwork of getting your company registered
         </p>
+
+        <div class="shapes-container">
+          <div class="equal-sides">
+            <div class="shape circle-1"></div>
+          </div>
+        </div>
         
         <div class="shapes-container pt-5">
           <div class="equal-sides text-center">
@@ -181,13 +215,20 @@
     <section id="adoption" class="overflow-hidden">
       <div class="container">
 
-        <h1>
+        <h2>
           Early Adoption,<br>
-          Let’s Prove The Market
-        </h1>
+          Let’s <span class="underlined">Prove The Market</span>
+        </h2>
         <p class="sub-title pt-4">
           Let’s prove your idea with a landing page & pre-signups
         </p>
+
+        <div class="shapes-container">
+          <div class="equal-sides">
+            <div class="shape circle-1"></div>
+            <div class="shape circle-2"></div>
+          </div>
+        </div>
 
         <div class="shapes-container">
           <div class="equal-sides text-center">
@@ -206,10 +247,10 @@
     <section id="funding" class="overflow-hidden">
       <div class="container">
 
-        <h1 class="text-center">
+        <h2 class="text-center">
           Get Funding you need, <br>
-          not just want..
-        </h1>
+          <span class="underlined">not just want..</span>
+        </h2>
         <p class="sub-title text-center pt-4">
           Helping you with VC and Angel investor Pre-Seed Equity Capital
         </p>
@@ -226,6 +267,15 @@
             <img src="./img/homepage/cubes.png" class="figure cubes" alt="cubes" />
 
             <img src="./img/homepage/sim.png" class="sim" alt="sim" />
+
+            <img src="./img/homepage/curve-line.svg" class="figure curve-line" alt="curve line" />
+
+          </div>
+        </div>
+
+        <div class="container lets-chat">
+          <div class="text-center">
+            <button class="web-btn web-btn--radius text-white bg-purple btn-medium">Let's Chat</button>
           </div>
         </div>
 
@@ -236,10 +286,10 @@
     <section id="user_experience" class="overflow-hidden">
       <div class="container">
 
-        <h1>
+        <h2>
           Absolutely<br> 
-          Unreal User Experience 
-        </h1>
+          Unreal <span class="underlined">User Experience</span>
+        </h2>
         <p class="sub-title pt-4">
           Design that melts in your mouth & a user experice that makes your users want more.
         </p>
@@ -257,13 +307,13 @@
     </section>
 
     <!-- ============================================ Good Code Section ================================================ -->
-    <section id="good_code" class="overflow-hidden">
+    <section id="good_code">
       <div class="container">
 
-        <h1 class="text-center">
+        <h2 class="text-center">
           Unmistakably<br> 
-          Good Code
-        </h1>
+          <span class="underlined excess">Good Code</span>  
+        </h2>
         <p class="sub-title text-center pt-4">
           Clean, Sharp, Efficient code... That does what its supposed too.
         </p>
@@ -275,20 +325,28 @@
             <img src="./img/homepage/font.png" class="figure font" alt="font" />
             <img src="./img/homepage/mouse2.png" class="figure mouse2" alt="mouse2" />
             <img src="./img/homepage/blue-scene.png" class="blue-scene" alt="blue scene" />
+
+            <img src="./img/homepage/curve-line-2.svg" class="figure curve-line-2" alt="curve line" />
           </div>
         </div>
-
       </div>
     </section>
 
     <!-- ============================================ Competitors Section ================================================ -->
-    <section id="competitors" class="overflow-hidden">
+    <section id="competitors">
       <div class="container">
 
-        <h1>
+        
+        <div class="shapes-container">
+          <div class="equal-sides text-center">
+            <img src="./img/homepage/curve-line-3.svg" class="figure curve-line-3" alt="curve line" />
+          </div>
+        </div>
+
+        <h2>
           Marketing that<br> 
-          kicks your Competitors
-        </h1>
+          <span class="underlined">kicks your Competitors</span>
+        </h2>
         <p class="sub-title pt-4">
           Advertising that you can trust and growth that you deserve.
         </p>
@@ -300,6 +358,9 @@
             <img src="./img/homepage/ball-yellow2.png" class="figure ball-yellow" alt="ball yellow" />
             <img src="./img/homepage/cubes.png" class="figure cubes" alt="cubes" />
             <img src="./img/homepage/marketing-scene.png" class="marketing-scene" alt="marketing scene" />
+            
+            <img src="./img/homepage/curve-line-4.svg" class="figure curve-line-4" alt="curve line" />
+
           </div>
         </div>
 
@@ -310,17 +371,17 @@
           <button class="web-btn web-btn--radius text-white bg-purple btn-medium">Let's Chat</button>
         </div>
       </div>
-
+      
     </section>
 
     <!-- ============================================ Launching Section ================================================ -->
     <section id="launching" class="overflow-hidden">
       <div class="container">
 
-        <h1 class="text-center">
+        <h2 class="text-center">
           Launch Leaving <br>
-          Compeditors in The Dust
-        </h1>
+          <span class="underlined">Compeditors in The Dust</span>
+        </h2>
 
         <div class="shapes-container">
           <div class="equal-sides text-center">
@@ -340,28 +401,76 @@
     <section id="what_we_do" class="overflow-hidden">
       <div class="container">
 
-        <h1 class="text-center">
-          Launch Leaving <br>
-          Compeditors in The Dust
-        </h1>
+        <h2 class="text-center">
+          So, What Do We Do, <br><span class="underlined">Exactly?</span>
+        </h2>
         <p class="sub-title text-center pt-4">
-          Advertising that you can trust and growth that you deserve.
+          When clients utilize our full suite of services, it means we take your idea from the embryonic stage through the design and build process and then through launch, growth, and iteration. 
         </p>
         <p class="sub-title text-center pt-4">
-          Advertising that you can trust and growth that you deserve.
+          We would start with an initial investigation about our client and their industry and we identify openings for growth, efficiency gains, and innovation by leveraging off-the-shelf or custom tech implementations.
         </p>
 
         <div class="shapes-container">
           <div class="equal-sides text-center">
-            <img src="./img/homepage/cloud.png" class="figure cloud" alt="cloud" />
-            <img src="./img/homepage/cloud.png" class="figure cloud2" alt="cloud2" />
-            <img src="./img/homepage/message2.png" class="figure message" alt="message" />
-            <img src="./img/homepage/triangle.png" class="figure triangle" alt="triangle" />
-            <img src="./img/homepage/search.png" class="figure search" alt="search" />
-            <img src="./img/homepage/rocket.png" class="rocket" alt="rocket" />
+            <img src="./img/homepage/mask.png" class="figure mask" alt="mask" />
+            <img src="./img/homepage/keys.png" class="figure keys" alt="keys" />
+            <img src="./img/homepage/cup.png" class="figure cup" alt="cup" />
+            <img src="./img/homepage/cubes.png" class="figure cubes" alt="cubes" />
+            <img src="./img/homepage/folder.png" class="folder" alt="folder" />
+
+            <img src="./img/homepage/curve-line-4.svg" class="figure curve-line-4" alt="curve line" />
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <!-- ============================================ Our Secret Section ================================================ -->
+    <section id="our_secret" class="overflow-hidden">
+      <div class="container">
+
+        <h2 class="text-center">
+          <span class="underlined">What’s Our Secret?</span>
+        </h2>
+        <p class="sub-title text-center pt-4">
+          There are really only two things that make ConvrtX special: our process and our team.
+        </p>
+        <p class="sub-title text-center pt-4">
+          Our process is our playbook for client success. It’s the infrastructure that allows our team to create the great things that drive results for our clients.
+        </p>
+
+        <div class="shapes-container">
+          <div class="equal-sides">
+            <div class="shape circle-1"></div>
+            <div class="shape circle-2"></div>
+            <div class="shape circle-3"></div>
+          </div>
+        </div>
+
+        <div class="shapes-container">
+          <div class="equal-sides text-center">
+            <img src="./img/homepage/bucket-shadow.png" class="figure bucket-shadow" alt="bucket shadow" />
+            <img src="./img/homepage/ball-yellow.png" class="figure ball-yellow" alt="ball yellow" />
+            <img src="./img/homepage/cube-single.png" class="figure cube-single" alt="cube single" />
+            <img src="./img/homepage/code.png" class="figure code" alt="code" />
+            <img src="./img/homepage/man-center.png" class="man-center" alt="man center" />
+
+            <img src="./img/homepage/curve-line.svg" class="figure curve-line" alt="curve line" />
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container lets-chat">
+        <p class="sub-title text-center mb-5">
+          Our people come from startups, not agencies. Instead of obsessing over awards,
+          they’ve focused on satisfying customers and users. They’re ex-CEOs, ex-CTOs, 
+          ex-CMOs—people who know how to win in the marketplace.
+        </p>
+        <div class="text-center">
+          <button class="web-btn web-btn--radius text-white bg-purple btn-medium">Let's Chat</button>
+        </div>
       </div>
     </section>
 
@@ -369,18 +478,18 @@
     <section id="download" class="overflow-hidden">
       <div class="container">
         <!-- shapes -->
-        <div class="container-center custom-height">
-          <h1>Download<br>
-            Our Startup guides
-          </h1>
-          <p class="sub-title mt-4">Get a copy of our best curated guides</p>
-          <!-- shapes -->
-          <div class="shapes-container">
-            <div class="equal-sides">
-              <div class="shape circle-2"></div>
-              <div class="shape circle-1"></div>
-            </div>
+        <div class="shapes-container">
+          <div class="equal-sides">
+            <div class="shape circle-1"></div>
           </div>
+        </div>
+
+        <div class="container-center custom-height">
+          <h2>Download<br>
+            Our Startup guides
+          </h2>
+          <p class="sub-title mt-4">Get a copy of our best curated guides</p>
+          
         </div>
         <div class="row mt-5">
           <div class="col-md-4">
@@ -420,6 +529,81 @@
       </div>
     </section>
 
-    
+    <!-- ============================================ Global Section ================================================ -->
+    <section id="global" class="overflow-hidden">
+      <div class="container">
+        <h2 class="text-center">
+          <span class="underlined">We are Global</span>
+        </h2>
+        <div class="shapes-container">
+          <div class="equal-sides text-center">
+            <img src="./img/homepage/globe.png" class="globe" alt="globe" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================ Footer Section ================================================ -->
+    <section id="footer" class="overflow-hidden">
+
+      <div class="container">
+        <h2 class="text-center">
+          <span class="underlined">Let’s Work Together</span>
+        </h2>
+      </div>
+
+      <div class="container lets-chat">
+        <div class="text-center">
+          <button class="web-btn web-btn--radius text-white bg-purple btn-medium">Let's Chat</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row contact-details">
+          <div class="col-md-6 float-right">
+            <img src="./img/icon-email.png" /> hello@convrtx.com
+          </div>
+          <div class="col-md-6 float-left">
+            <img src="./img/icon-phone-message.png" /> +33 6654 3980
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row social-details">
+
+          <div class="col-md-3">
+            <div class="social-box">
+              <i class="fa fa-facebook-square"></i> <span>Facebook</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-box active">
+              <i class="fa fa-instagram"></i> <span>Instagram</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-box">
+              <i class="fa fa-twitter-square"></i> <span>Twitter</span>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-box">
+              <i class="fa fa-linkedin-square"></i> <span>LinkedIn</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row credit-box">
+          <span class="credit">Copyright © 2020 ConvrtX. All Rights Reserved.</span>
+        </div>
+      </div>
+
+    </section>
+
 </body>
 </html>
