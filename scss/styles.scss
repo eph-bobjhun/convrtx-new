@@ -51,7 +51,46 @@ nav .active::after {
     position: absolute;
     width: 30px;
 }
-h1 {
+
+h1.mini-heading{
+    font-family: 'Gilroy Light';
+    font-weight: 700 !important;
+    font-size: 27px;
+    line-height: 107%;
+    letter-spacing: -0.03em;
+    color: #4C40F7;
+}
+h2 {
+    font-family: 'Samsung Sharp Sans Bold';
+    font-weight: 900;
+    font-size: 5.45vw;
+    color: #0C0906;
+}
+h3 {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-weight: 700;
+    font-size: 3vw;
+    color: #0C0906;
+}
+h4 {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #0C0906;
+}
+h5 {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-weight: 700;
+    font-size: 2vw;
+    color: #0C0906;
+}
+h6 {
+    font-family: 'Samsung Sharp Sans Medium';
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #0C0906;
+}
+.text-header {
     font-size: 8vw;
     line-height: 8vw;
     font-family: 'Samsung Sharp Sans Bold';
@@ -66,7 +105,7 @@ h1 {
         background-position-y: 7.5vw;
     }
 }
-h2 {
+.text-header-medium {
     font-family: 'Samsung Sharp Sans Bold';
     font-weight: 900;
     font-size: 5.45vw;
@@ -79,22 +118,6 @@ h2 {
         background-repeat: no-repeat;
         background-position-y: 5vw;
     }
-}
-h3 {
-    font-family: 'Samsung Sharp Sans Medium';
-    font-weight: 700;
-    font-size: 3vw;
-    color: #0C0906;
-}
-
-.mini-heading{
-    font-family: 'Gilroy Light';
-    font-weight: 700 !important;
-    font-size: 40px;
-    font-size: 27px;
-    line-height: 107%;
-    letter-spacing: -0.03em;
-    color: #4C40F7;
 }
 .sub-title {
     font-family: 'Gilroy Light';
@@ -229,17 +252,34 @@ h3 {
     .container {
         padding: 0 15vw;
     }
-    .lets-chat, .btn-medium {
-        width: 100% !important;
-        padding: 4vw 0 !important;
-    }
 }
 @media (max-width: 768px) {
+    .logo img{
+        margin: 0 auto;
+    }
+    .navbar {
+        padding: 0 !important;
+    }
+    ul.nav {
+        display: table !important;
+        margin: 1em auto !important;
+        padding: 0 !important;
+        text-align: justify !important;
+        width: 100% !important;
+    }
+    .hero header .web-btn { 
+        height: 50px !important; 
+        margin-top: 1rem;
+    }
+
+    ul.nav li {
+        display: table-cell !important;
+        padding: 0 5px !important;
+    }
     h1 {
         font-size: 11.5vw;
         line-height: 11.5vw;
         margin-top: 10vw;
-
         .underlined {
             background-position-y: 11vw;
         }
@@ -247,7 +287,6 @@ h3 {
     h2 {
         font-size: 8vw;
         line-height: 8vw;
-
         .underlined {
             background-position-y: 7.5vw;
         }
@@ -261,6 +300,10 @@ h3 {
     .sub-title {
         font-size: 5vw;
         line-height: 6vw;
+    }
+    .lets-chat, .btn-medium {
+        width: 80% !important;
+        padding: 4vw 0 !important;
     }
     .clients-logo{
         height: auto;
@@ -276,19 +319,10 @@ h3 {
     .float-right{
         margin-bottom: 30px;
     }
-    /* Setting Spaces */
-    .hero-text { margin-top: 4rem !important; }
-    #awards { padding-top: 0rem !important; }
-    #light-bulb {
-        .container-center { margin-top: 0rem !important; }
-        .lamp { 
-            right: -15vw !important; 
-            top: -10vw !important;
-        }
-        .flower {
-            left: 0vw !important;
-            top: -5vw !important;
-        }
+    #footer{ padding: 0 !important;  }
+    .social-details {
+        margin-top: 2rem !important;
+        margin-bottom: 0rem !important; 
     }
 }
 

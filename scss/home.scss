@@ -667,3 +667,38 @@
     left: 15px;
     padding: 40px;
 }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    /* Setting Spaces */
+    .hero-content { margin-top: 0 !important; }
+    .hero-text { margin-top: 4rem !important; }
+    #awards { padding-top: 0rem !important; }
+    #light-bulb {
+        .container-center { margin-top: 0rem !important; }
+        .lamp { 
+            right: -15vw !important; 
+            top: -10vw !important;
+        }
+        .flower {
+            left: 0vw !important;
+            top: -5vw !important;
+        }
+    }
+    #business_plan{ padding: 0 !important; }
+    #business_legit{ padding: 2rem 0 !important; }
+    #funding{ 
+        padding: 0 !important; 
+        .shapes-container{ margin-top: 5rem !important; }
+    }
+    #user_experience{ padding: 3rem 0 !important; }
+    #good_code{ padding: 0 !important; }
+    #launching{ padding: 0 !important;  }
+    #download {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important; 
+        .grid-blue { min-height: 350px !important; }
+        .grid-orange { min-height: 350px !important; }
+        .grid-green { min-height: 350px !important; }
+    }
+}
