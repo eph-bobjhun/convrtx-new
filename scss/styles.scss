@@ -18,6 +18,14 @@
     --extra-bold-font: 800;
 }
 
+html { overflow-x: hidden; }
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1240px;
+    }
+}
+
 #index_page {
     background: url('../img/homepage/hero.png');
     background-repeat: no-repeat;
@@ -56,7 +64,6 @@ h1.mini-heading{
     font-family: 'Gilroy Light';
     font-weight: 700 !important;
     font-size: 27px;
-    line-height: 107%;
     letter-spacing: -0.03em;
     color: #4C40F7;
 }
@@ -81,24 +88,27 @@ h4 {
 h5 {
     font-family: 'Samsung Sharp Sans Medium';
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: #0C0906;
 }
 h6 {
     font-family: 'Samsung Sharp Sans Medium';
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    padding: 0;
     color: #0C0906;
 }
 p {
     font-family: 'Poppins Regular';
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 30px;
 }
 .text-header {
     font-size: 7.5vw;
-    line-height: 8vw;
+    line-height: 8vw !important;
     font-family: 'Samsung Sharp Sans Bold';
     font-weight: 900;
+    padding: 0;
     color: #0C0906;
 
     .underlined {
@@ -111,7 +121,9 @@ p {
 }
 .text-header-medium {
     font-family: 'Samsung Sharp Sans Bold';
+    line-height: 6vw !important;
     font-weight: 900;
+    padding: 0;
     font-size: 5.45vw;
     color: #0C0906;
 
@@ -123,10 +135,10 @@ p {
         background-position-y: 5vw;
     }
 }
-.sub-title {
+.sub-title, .sub-header {
     font-family: 'Gilroy Light';
     font-weight: 700 !important;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 40px;
     color: #3C3E42;
 }
@@ -183,8 +195,14 @@ p {
 
 /* Footer */
 #footer{
-    padding: 5rem 0;
+    padding: 10rem 0 5rem 0;
     position: relative;
+
+    .bubble-message {
+        width: 10vw;
+        left: 5vw;
+        top: -8vw;
+    }
 
     .lets-chat {
         margin-top: 50px;
@@ -295,15 +313,31 @@ p {
             background-position-y: 7.5vw;
         }
     }
+    h3 {
+        font-size: 6vw;
+    }
+    h4 {
+        font-size: 5.5vw;
+    }
+    h5 {
+        font-size: 2.8vw;
+    }
+    h6 {
+        font-size: 3.3vw;
+    }
     p {
         font-size: 4vw;
     }
     .mini-heading{
-        font-size: 4vw;
+        font-size: 4vw !important;
     }
     .sub-title {
         font-size: 5vw;
         line-height: 6vw;
+    }
+    .sub-header {
+        font-size: 3.5vw;
+        line-height: 5vw;
     }
     .lets-chat, .btn-medium {
         width: 80% !important;
