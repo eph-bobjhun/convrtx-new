@@ -82,15 +82,15 @@
     }
     .flower {
         position: absolute;
-        width: 26.25vw;
-        left: -6.25vw;
-        top: -7.5vw;
+        width: 20vw;
+        left: -3vw;
+        top: -4vw;
     }
     .lamp {
         position: absolute;
-        width: 37.5vw;
-        right: -21.875vw;
-        top: -13.75vw;
+        width: 30vw;
+        right: -17vw;
+        top: -9vw;
     }
     .cloud {
         position: absolute;
@@ -99,7 +99,7 @@
         top: -23.75vw;
     }
     .bucket {
-        width: 18.75vw;
+        width: 14vw;
     }
     .container-center {
         margin-top: 15.625vw;
@@ -124,42 +124,50 @@
 
 /* Make Business Plan */
 #business_plan{
-    padding: 4rem 0;
+
+    padding: 2rem 0 5rem 0;
     position: relative;
+
     .shapes-container {
         z-index: 1 !important
     }
     .business-scene {
-        width: 100%;
+        width: 70%;
+        position: relative;
+        margin: 0 auto !important;
+        display: block;
     }
     .cursor {
         position: absolute;
-        width: 9vw;
-        top: 4vw;
+        width: 7vw;
+        top: 3vw;
         left: 35vw;
     }
     .business-card {
         position: absolute;
-        width: 20vw;
-        right: 0vw;
-        top: 10vw;
+        width: 18vw;
+        right: 8vw;
+        top: 7vw;
     }
     .hand-left {
         position: absolute;
-        width: 17vw;
-        top: 15vw;
-        left: 2vw;
+        width: 14vw;
+        top: 11vw;
+        left: 11vw;
     }
     .hand-right {
         position: absolute;
-        width: 20vw;
+        width: 15vw;
         bottom: 0vw;
-        right: -2vw;
+        right: 9vw;
     }
     .circle-1 {
         background: rgba(250, 184, 196, 0.18);
-        right: 0px;
-        top: -33.75vw;
+        width: 20vw;
+        height: 20vw;
+        right: 10vw;
+        top: 16vw;
+        z-index: -1;
     }
 }
 

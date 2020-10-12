@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Samsung Sharp Sans';
+  src: local("Samsung Sharp Sans"), url("../fonts/samsungsharpsans.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Medium';
+  src: local("Samsung Sharp Sans Medium"), url("../fonts/samsungsharpsans-medium.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  src: local("Samsung Sharp Sans Bold"), url("../fonts/samsungsharpsans-bold.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Gilroy Light';
+  src: local("Gilroy Light"), url("../fonts/gilroy/Gilroy-Light.otf") format("woff"); }
+
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  src: local("Gilroy ExtraBold"), url("../fonts/gilroy/Gilroy-ExtraBold.otf") format("woff"); }
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: local("Poppins Bold"), url("../fonts/poppins/Poppins-Bold.woff2") format("woff"); }
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: local("Poppins Light"), url("../fonts/poppins/Poppins-Light.woff2") format("woff"); }
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: local("Poppins Regular"), url("../fonts/poppins/Poppins-Regular.woff2") format("woff"); }

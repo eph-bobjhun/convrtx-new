@@ -1,6 +1,7 @@
 /* Hero */
-.hero-content {
-  margin-top: 150px; }
+
+/*.hero-content {
+  margin-top: 150px; }*/
 
 .hero {
   overflow: visible; }
@@ -53,7 +54,7 @@
 
 /* Awards */
 #awards {
-  padding-top: 12.5vw; }
+  padding-top: 0vw; }
   #awards .container {
     margin-top: 6.25vw; }
   #awards img {
@@ -63,10 +64,7 @@
   width: 100%; }
 
 /* Light Bulb Moments */
-#light-bulb {
-  padding: 30vw 0 12vw 0px; }
-  #light-bulb .container {
-    position: relative; }
+#light-bulb {  }
   #light-bulb .flower {
     position: absolute;
     width: 20vw;
@@ -102,12 +100,12 @@
 
 /* Make Business Plan */
 #business_plan {
-  padding: 2rem 0 5rem 0;
+  padding: 0rem;
   position: relative; }
   #business_plan .shapes-container {
     z-index: 1 !important; }
   #business_plan .business-scene {
-    width: 70%;
+    width: 50%;
     position: relative;
     margin: 0 auto !important;
     display: block; }
