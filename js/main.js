@@ -46,4 +46,20 @@ jQuery(document).ready(function($){
         	600
         );
 	}
+
+});
+document.addEventListener('DOMContentLoaded', function(){
+
+	var mySwiper = new Swiper('.clients-slider', {
+		// Optional parameters
+		direction: 'horizontal',
+		loop: false,
+		slidesPerView: 3,  
+		clickable: false,
+		// Navigation arrows
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	})
 });

@@ -79,11 +79,11 @@
   margin-bottom: 30px; }
 
 p {
-  font-family: 'Poppins Regular';
+  font-family: var(--main-font);
   font-size: 18px; }
 
 .sup-title {
-  font-family: 'Gilroy Extrabold';
+  font-family: var(--sup-font);
   font-style: normal;
   font-size: 16px;
   line-height: 0%;

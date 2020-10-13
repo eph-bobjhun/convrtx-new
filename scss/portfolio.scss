@@ -1,16 +1,9 @@
 
 /* Hero */
 #projects {
-    .hero-content {
-        margin-top: 150px;
-    }
-    .hero {
-        overflow: visible;
-    }
-    .hero-text{
-        margin-top: 200px;
-    }
-    
+    .hero-content { margin-top: 150px; }
+    .hero { overflow: visible; }
+    .hero-text{ margin-top: 200px; }
     .headline {
         .ball {
             width: 12vw;
@@ -51,8 +44,6 @@
         text-align: center;
     }
 }
-
-
 /* Projects */
 .left {
     padding-bottom: 7vw;
@@ -89,11 +80,11 @@
     margin-bottom: 30px;
 }
 p {
-    font-family: 'Poppins Regular';
+    font-family: var(--main-font);
     font-size: 18px;
 }
 .sup-title {
-    font-family: 'Gilroy Extrabold';
+    font-family: var(--sup-font);
     font-style: normal;
     font-size: 16px;
     line-height: 0%;
@@ -101,7 +92,6 @@ p {
     text-transform: uppercase;
     color: #02031C;
 }
-
 /* Clients */
 #clients {
     .clients-container {
@@ -120,7 +110,6 @@ p {
     .radius-bottom-left-desktop { border-bottom-left-radius: 2.5rem; }
     .radius-bottom-right { border-bottom-right-radius: 2.5rem; }
 }
-
 /* Designs */
 #designs {
     .container {
@@ -135,24 +124,16 @@ p {
         margin-bottom: 25px;
     }
 }
-
 /* Awards */
 #awards {
-
-    .container {
-        margin-bottom: 6.25vw;
-    }
-
+    .container { margin-bottom: 6.25vw; }
     img {
         margin-top: 1.25vw;   
         width: 100%; 
     }
 }
-
 #showcase {
-    .container {
-        margin-bottom: 6.25vw;
-    }
+    .container { margin-bottom: 6.25vw; }
     img {
         margin-top: 1.25vw;    
         width: 100%;
@@ -165,7 +146,6 @@ p {
         top: -5vw;
     }
 }
-
 /* Clients */
 #clients {
     padding-top: 12vw;
@@ -187,7 +167,6 @@ p {
         top: -14vw; 
     }
 }
-
 /* Designs */
 #designs {
     .line {
@@ -213,7 +192,6 @@ p {
         top: -7vw; 
     }
 }
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
     #projects {

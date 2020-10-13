@@ -1,22 +1,12 @@
 /* Hero */
-.hero-content {
-    margin-top: 150px;
-}
-
-.hero {
-    overflow: visible;
-}
-.hero-text{
-    margin-top: 100px;
-}
-
+.hero-content { margin-top: 150px; }
+.hero { overflow: visible; }
+.hero-text{ margin-top: 100px; }
 .hero .sub-header {
     margin-top: 3vw;
     margin-bottom: 3vw;
 }
-
 .headline {
-
     .ball {
         width: 10vw;
         right: 14vw;
@@ -52,7 +42,6 @@
         right: -10vw;
         top: 20vw;
     }
-    
     .circle-1 {
         background: rgba(184, 191, 250, 0.18);
         width: 30vw;
@@ -61,18 +50,12 @@
         top: 0vw;
     }
 }
-
 /* Business Solutions */
 #business_solutions {
-
     margin-top: 3vw;
     padding: 0;
-
-    .shapes-container {
-        margin-top: 5vw;
-        padding: 0;
-    }
-
+    .text-header-medium { margin-bottom: 1vw; }
+    .sub-header { margin-bottom: 1vw; }
     .laptop {
         width: 70%;
     }
@@ -108,29 +91,23 @@
         top: 0vw;
     }
 }
-
 /* Business Solutions Features */
 #business_solutions_features {
-
     margin: 3vw 0 0 0;
     padding: 0vw 3vw;
-
     .container-grid {
         text-align: center;
         padding: 2vw 1vw 5vw 1vw;
         cursor: pointer;
         margin: 10px;
     }
-
     .container-grid img {
         width: 100%;
         margin-bottom: 2vw;
     }
-
     .container-grid-main {
         padding: 5vw 0;
     }
-
     .container-grid-main .active, .container-grid-main .container-grid:hover {
         background: #FFFFFF;
         box-shadow: 0px 24px 94px 30px rgba(97, 53, 122, 0.1);
@@ -143,15 +120,12 @@
 
 /* Business Solutions */
 #design_solution {
-
     padding: 5vw 0 5vw 0;
-
     .bucket {
         width: 15vw;
         right: -8vw;
         top: -22vw;
     }
-
     .container-color {
         width: 70%;
         margin: 0 auto;
@@ -163,7 +137,6 @@
         line-height: 1.5vw;
         margin-top: 6vw;
     }
-
     //Color Container Pink
     .pink {
         background: #FFC8B6;
@@ -188,7 +161,6 @@
         left: 25.5vw;
         top: 19vw;
     }
-
     //Color Container Purple
     .purple{
         background: #BFCCF8;
@@ -224,7 +196,6 @@
         left: 17.5vw;
         top: 4vw;
     }
-
     //Color Container Green
     .green{
         background: #BFEEF8;
@@ -265,7 +236,6 @@
         left: 14vw;
         top: 34vw;
     }
-
     .line1 {
         z-index: -1;
         width:110%;
@@ -283,7 +253,6 @@
         padding-top: 3vw;    
     }
 }
-
 #development_solution{
     margin-top: 5vw;
     .laptop {
@@ -310,7 +279,6 @@
         right: 8vw;
         top: 24vw;
     }
-
     .container-grid-main {
         margin: 0 auto;
         position: relative;
@@ -320,7 +288,7 @@
     }
     .container-grid {
         text-align: center;
-        padding: 0.5vw 3vw 3vw 3vw;
+        padding: 2vw 3vw 3vw 3vw;
         cursor: pointer;
         -webkit-flex: 1; 
         -ms-flex: 1; 
@@ -331,12 +299,10 @@
         box-shadow: 0px 24px 94px 30px rgba(97, 53, 122, 0.1);
         border-radius: 40px;
     }
-
     .arrows {
         display: flex;
         margin: 5vw auto 0vw auto;
     }
-
     .arrow-left{
         width: 150px;
         height: 50px;
@@ -360,7 +326,6 @@
         cursor: pointer;
     }
 }
-
 /* Start Up to Corporate */
 .container-white {
     color: #fff;
@@ -369,19 +334,15 @@
     }
 }
 #start_up_to_corporate {
-
     padding-top: 5vw;
     padding-bottom: 5vw;
-
     .text-header-medium {
         padding: 0
     }
-
     .sub-header {
         color: #82ABFF;
         padding: 2vw 10vw;
     }
-
     .container-fluid {
         background: #232340;
         margin-top: 5vw;
@@ -406,7 +367,7 @@
     }
     .building {
         z-index:2;
-        width: 50%;
+        width: 30%;
         margin: 0 auto;
         padding: 5vw 0 5vw 0;
     }
@@ -414,22 +375,22 @@
         padding: 5vw 3vw 0vw 3vw;
     }
     .content img {
-        width: 80%;
+        width: 60%;
     }
     .content p {
-        margin-top: -2vw;
+        margin-top: 1vw;
         color: #BCD2FF;
     }
     .shapes-container {
         z-index: 1;
     }
     .cubes {
-        width: 14vw;
+        width: 12vw;
         left: 0vw;
         top: 7vw;
     }
     .ball {
-        width: 11vw;
+        width: 9vw;
         right: 0vw;
         top: 12vw;
     }
@@ -448,15 +409,12 @@
         top: 11vw;
     }
 }
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
     /* Setting Spaces */
     .hero-content { margin-top: 0 !important; }
     .hero-text { margin-top: 4rem !important; }
 }
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
     /* Setting Spaces */
     #business_solutions_features {

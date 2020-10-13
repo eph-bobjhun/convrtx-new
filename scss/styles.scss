@@ -9,6 +9,9 @@
     --white: #fff;
     --dim: #979797;
     --main-font: 'Poppins';
+    --header-font: 'Samsung Sharp Sans';
+    --sub-font: 'Gilroy Light';
+    --sup-font: 'Gilroy';
     --regular-font: normal;
     --thin-font: 100;
     --light-font: 300;
@@ -19,14 +22,30 @@
 }
 
 html { overflow-x: hidden; }
-
+.hero header {
+    padding: 20px 0 0 0;
+}
+.pos-abs{
+    position: absolute;
+}
+.cirlce-pink {
+    background: rgba(250, 184, 196, 0.18);
+    width: 26.25vw;
+    height: 26.25vw;
+}
 @media (min-width: 1200px){
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         max-width: 1240px;
     }
 }
-
-#index_page {
+video{
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
     background: url('../img/homepage/hero.png');
     background-repeat: no-repeat;
     background-position: top center;
@@ -38,13 +57,17 @@ html { overflow-x: hidden; }
 .shapes-container {
     z-index: -1;
     height: auto !important;
-
+    position: relative;
+    width: 100%;
+    height: 100%;
     .shape {
-        left: auto;    
+        left: auto;
+        position: absolute;
+        border-radius: 50% 
     }
 }
 nav li a {
-    font-family: 'Gilroy Light';
+    font-family: var(--sub-font);
 }
 nav .active {
     color: #000 !important;
@@ -60,54 +83,61 @@ nav .active::after {
     width: 30px;
 }
 
-h1.mini-heading{
-    font-family: 'Gilroy Light';
-    font-weight: 700 !important;
+.mini-heading{
+    font-family: var(--sub-font);
     font-size: 27px;
     letter-spacing: -0.03em;
     color: #4C40F7;
 }
 h2 {
-    font-family: 'Samsung Sharp Sans Bold';
+    font-family: var(--header-font);
     font-weight: 900;
     font-size: 5.45vw;
     color: #0C0906;
 }
 h3 {
-    font-family: 'Samsung Sharp Sans Medium';
-    font-weight: 700;
+    font-family: var(--header-font);
+    font-weight: var(--semi-bold-font);
     font-size: 3vw;
     color: #0C0906;
 }
 h4 {
-    font-family: 'Samsung Sharp Sans Medium';
-    font-weight: 700;
+    font-family: var(--header-font);
+    font-weight: var(--semi-bold-font);
     font-size: 2.5vw;
     color: #0C0906;
 }
 h5 {
-    font-family: 'Samsung Sharp Sans Medium';
-    font-weight: 700;
+    font-family: var(--header-font);
+    font-weight: var(--semi-bold-font);
     font-size: 1.8vw;
     color: #0C0906;
 }
 h6 {
-    font-family: 'Samsung Sharp Sans Medium';
-    font-weight: 700;
+    font-family: var(--header-font);
+    font-weight: var(--semi-bold-font);
     font-size: 1.3vw;
     padding: 0;
     color: #0C0906;
 }
 p {
-    font-family: 'Poppins Regular';
+    font-family: var(--main-font);
+    font-weight: var(--regular-font);
     font-size: 15px;
     line-height: 30px;
 }
+.underlined{
+    background: url('../img/title-underline.png');
+    background-position: bottom center;
+    background-size: 85% 1vw;
+    background-repeat: no-repeat;
+   
+}
 .text-header {
-    font-size: 7.5vw;
-    line-height: 8vw !important;
-    font-family: 'Samsung Sharp Sans Bold';
-    font-weight: 900;
+    font-size: 6.5vw;
+    line-height: 7vw !important;
+    font-family: var(--header-font);
+    font-weight: var(--extra-bold-font);
     padding: 0;
     color: #0C0906;
 
@@ -116,15 +146,15 @@ p {
         background-position: bottom center;
         background-size: 85% 1vw;
         background-repeat: no-repeat;
-        background-position-y: 7vw;
+        background-position-y: 5.8vw;
     }
 }
 .text-header-medium {
-    font-family: 'Samsung Sharp Sans Bold';
-    line-height: 6vw !important;
-    font-weight: 900;
+    font-family: var(--header-font);
+    line-height: 5.5vw !important;
+    font-weight: var(--extra-bold-font);
     padding: 0;
-    font-size: 5.45vw;
+    font-size: 5vw;
     color: #0C0906;
 
     .underlined {
@@ -132,13 +162,13 @@ p {
         background-position: bottom center;
         background-size: 85% 1vw;
         background-repeat: no-repeat;
-        background-position-y: 5vw;
+        background-position-y: 4.4vw;
     }
 }
 .sub-title, .sub-header {
-    font-family: 'Gilroy Light';
-    font-weight: 700 !important;
-    font-size: 28px;
+    font-family: var(--sub-font);
+    font-weight: var(--semi-bold-font) !important;
+    font-size: 26px;
     line-height: 40px;
     color: #3C3E42;
 }
@@ -156,12 +186,13 @@ p {
 }
 .web-btn:hover{
     filter: brightness(95%);
+    color: #fff;
 }
 .hero header .web-btn {
     width: 250px;
 }
 .btn-medium {
-    font-family: 'Gilroy Light';
+    font-family: var(--sub-font);
     font-size: 18px;
     padding: 30px 250px;
 }
@@ -183,40 +214,31 @@ p {
 #global{
     padding: 5rem 0;
     position: relative;
-
-    .shapes-container {
-        margin-top: 50px;
-    }
+    .text-header-medium { margin-bottom: 2vw; }
     .globe {
-        width: 80%;
+        width: 30vw;
         margin: auto 0;
     }
 }
-
 /* Footer */
 #footer{
-    padding: 10rem 0 5rem 0;
+    padding: 5rem 0 2rem 0;
     position: relative;
-
     .bubble-message {
-        width: 10vw;
-        left: 5vw;
-        top: -8vw;
+        width: 8vw;
+        left: 8vw;
+        top: -5vw;
     }
-
-    .lets-chat {
-        margin-top: 50px;
-    }
+    .text-header-medium { margin-bottom: 2vw; }
+    .lets-chat { margin-bottom: 4vw; }
     .contact-details {
         font-weight: 600;
-        margin-top: 7vw;
-        font-family: 'Gilroy Light';
+        font-family: var(--sub-font);
+        margin-bottom: 3vw;
     }
-
     .contact-details div {
         padding: 5px 30px;
     }
-
     .contact-details img{
         height: 40px;
         margin-bottom: -15px;
@@ -227,24 +249,20 @@ p {
     .float-right {
         text-align: right
     }
-
     .credit-box {
         margin-top: 70px;
         margin-bottom: 20px;
     }
     .credit {
-        font-family: 'Gilroy Light';
+        font-family: var(--sub-font);
         margin: 0 auto;
-        font-weight: 600;;
+        font-weight: 600;
     }
-
     .social-details {
-        margin-top: 150px;
         margin-bottom: 150px;
         text-align: center;
-        font-family: 'Gilroy Light';
+        font-family: var(--sub-font);
     }
-
     .social-details .active, .social-details .social-box:hover {
         cursor: pointer;
         border-radius: 15px;
@@ -252,16 +270,12 @@ p {
         -moz-box-shadow: 0px 25px 15px 0px rgba(13,90,153,0.25);
         box-shadow: 0px 25px 15px 0px rgba(13,90,153,0.25);
     }
-
     .social-details .fa {
         font-size: 30px;
         margin-right: 5px;
     }
-
     .social-details .social-box {
-
         padding: 40px 0px;
-
         .fa-facebook-square { color: #4263D8; }
         .fa-instagram { color: #EB7847; }
         .fa-twitter-square { color: #48BDFF; }
@@ -269,6 +283,18 @@ p {
     }
 }
 
+.rotate {
+    animation: rotation 30s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
 /* RESPONSIVE */
 @media (max-width: 576px) {
     .container {
@@ -332,8 +358,8 @@ p {
         font-size: 4vw !important;
     }
     .sub-title {
-        font-size: 5vw;
-        line-height: 6vw;
+        font-size: 3.5vw;
+        line-height: 5vw;
     }
     .sub-header {
         font-size: 3.5vw;
@@ -363,7 +389,6 @@ p {
         margin-bottom: 0rem !important; 
     }
 }
-
 @media (min-width: 769px) {
     .clients-logo{
         height: 12vw;

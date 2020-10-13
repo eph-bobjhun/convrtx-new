@@ -47,31 +47,45 @@
     display: block; }
 
 /* Clients */
-#clients .clients-container {
-  margin-top: 5vw; }
+#clients {
+  padding-top: 8vw; }
+  #clients .clients-container {
+    margin-top: 5vw; }
+  #clients .clients-container img {
+    width: 100%;
+    filter: grayscale(95%); }
+  #clients .clients-logo {
+    padding: 4vw 5vw 3vw 5vw;
+    border: 1px solid #D7DBF2; }
+  #clients .ball {
+    width: 8vw;
+    height: 8vw;
+    left: -5vw;
+    top: -5vw; }
+  #clients .cubes {
+    width: 14vw;
+    height: 14vw;
+    right: -7vw;
+    top: -9vw; }
+  #clients .radius-top-left {
+    border-top-left-radius: 2.5rem; }
+  #clients .radius-top-right-desktop {
+    border-top-right-radius: 2.5rem; }
+  #clients .radius-bottom-left-desktop {
+    border-bottom-left-radius: 2.5rem; }
+  #clients .radius-bottom-right {
+    border-bottom-right-radius: 2.5rem; }
 
-#clients .clients-container img {
-  width: 100%;
-  filter: grayscale(95%); }
-
-#clients .clients-logo {
-  padding: 4vw 5vw 3vw 5vw;
-  border: 1px solid #D7DBF2; }
-
-#clients .radius-top-left {
-  border-top-left-radius: 2.5rem; }
-
-#clients .radius-top-right-desktop {
-  border-top-right-radius: 2.5rem; }
-
-#clients .radius-bottom-left-desktop {
-  border-bottom-left-radius: 2.5rem; }
-
-#clients .radius-bottom-right {
-  border-bottom-right-radius: 2.5rem; }
+.contact-heading {
+  margin-bottom: 2vw; }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  /* Setting Spaces */
+  .hero-content {
+    margin-top: 0 !important; }
+  .hero-text {
+    margin-top: 4rem !important; }
   #projects .hero-text {
     margin-top: -1vw; }
   #projects .hero-content {
