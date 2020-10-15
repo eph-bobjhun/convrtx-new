@@ -8,6 +8,9 @@
 .hero header {
   margin-bottom: 0px; }
 
+.hero-content {
+  margin-bottom: 7vw; }
+
 .heart-string {
   position: absolute;
   width: 14vw;
@@ -133,6 +136,27 @@
     right: 10vw;
     top: 16vw;
     z-index: -1; }
+
+.shapes-container img:nth-child(1) {
+  border: 2px solid red; }
+
+.shapes-container img:nth-child(2) {
+  border: 2px solid blue; }
+
+.shapes-container img:nth-child(3) {
+  border: 2px solid green; }
+
+.shapes-container img:nth-child(4) {
+  border: 2px solid yellow; }
+
+.shapes-container img:nth-child(5) {
+  border: 2px solid violet; }
+
+.shapes-container img:nth-child(6) {
+  border: 2px solid black; }
+
+.shapes-container img:nth-child(7) {
+  border: 2px solid orange; }
 
 /* Business Legit */
 #business_legit {
