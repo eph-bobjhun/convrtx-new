@@ -3,7 +3,10 @@
   overflow: visible; }
 
 .hero-text {
-  margin-top: 200px; }
+  margin-top: 150px; }
+
+.hero header {
+  margin-bottom: 0px; }
 
 .heart-string {
   position: absolute;
@@ -13,33 +16,33 @@
   top: 28vw; }
 
 .headline .man-rocket {
-  width: 33vw;
-  left: 38vw; }
+  width: 26.5vw;
+  left: 45vw; }
 
 .headline .bg {
-  width: 21vw;
+  width: 18vw;
   right: 30px;
   top: 5vw; }
 
 .headline .cube-white {
   width: 12vw;
-  left: 35vw;
-  top: 26vw; }
+  left: 40vw;
+  top: 22vw; }
 
 .headline .flower-pot {
   width: 6vw;
   right: -2vw;
-  top: 14vw; }
+  top: 12vw; }
 
 .headline .mouse {
-  width: 14vw;
-  right: -8vw;
-  top: 28vw; }
+  width: 13vw;
+  right: -7vw;
+  top: 25vw; }
 
 .headline .ball {
-  width: 10vw;
+  width: 9vw;
   left: 20vw;
-  top: 6vw; }
+  top: 4vw; }
 
 .headline .circle-1 {
   background: rgba(250, 184, 196, 0.18);
@@ -49,12 +52,12 @@
   top: 9.3vw; }
 
 /* Awards */
-#awards {
-  padding-top: 12.5vw; }
-  #awards .sub-title {
-    margin-bottom: 4vw; }
-  #awards img {
-    width: 100%; }
+#awards .sub-title {
+  margin-bottom: 1vw;
+  line-height: 2vw; }
+
+#awards img {
+  width: 100%; }
 
 /* Light Bulb Moments */
 #light-bulb {
@@ -624,13 +627,6 @@
   bottom: 0;
   background-color: #fff;
   z-index: 999999; }
-
-.fade-in {
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-  -moz-animation: fadeIn ease 6s;
-  -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s; }
 
 @keyframes fadeIn {
   0% {

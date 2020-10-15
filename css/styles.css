@@ -195,9 +195,18 @@ p {
 .full {
   background-size: 100% 1vw !important; }
 
+.vertically-align-container {
+  display: flex;
+  vertical-align: middle !important;
+  height: 100% !important; }
+
+.section {
+  border: 10px solid red; }
+
 .vertically-align {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 0px auto; }
 
 .full-width {
   width: 100%; }
