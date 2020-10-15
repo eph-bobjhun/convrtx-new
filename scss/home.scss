@@ -150,35 +150,34 @@
 /* Business Legit */
 #business_legit{
     padding: 2vw 0;
-    position: relative;
     .man-checker {
         width: 40vw;
         margin-left: 8vw;
     }
     .cubes {
         width: 10vw;
-        left: 1vw;
+        left: 0vw;
         top: 1vw;
     }
     .ball-blue {
         width: 7vw;
-        right: 10vw;
+        right: 5vw;
         top: 7vw;
     }
     .files {
         width: 20vw;
-        left: 15vw;
+        left: 5vw;
         bottom: 6vw;
     }
     .message {
         width: 14vw;
-        right: 12vw;
-        bottom: 8vw;
+        right: 5vw;
+        bottom: 6vw;
     }
     .listing {
         z-index: -1;
         height: 21vw;
-        left: 5vw;
+        left: -3vw;
         top: 12vw;
     }
     .circle-1 {
@@ -186,7 +185,7 @@
         height: 25vw;
         background: rgba(250, 200, 184, 0.18);
         top: 6vw;
-        left: 23vw;
+        left: 15vw;
     }
 }
 /* Adoption */

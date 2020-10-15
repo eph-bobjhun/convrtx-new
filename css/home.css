@@ -136,38 +136,37 @@
 
 /* Business Legit */
 #business_legit {
-  padding: 2vw 0;
-  position: relative; }
+  padding: 2vw 0; }
   #business_legit .man-checker {
     width: 40vw;
     margin-left: 8vw; }
   #business_legit .cubes {
     width: 10vw;
-    left: 1vw;
+    left: 0vw;
     top: 1vw; }
   #business_legit .ball-blue {
     width: 7vw;
-    right: 10vw;
+    right: 5vw;
     top: 7vw; }
   #business_legit .files {
     width: 20vw;
-    left: 15vw;
+    left: 5vw;
     bottom: 6vw; }
   #business_legit .message {
     width: 14vw;
-    right: 12vw;
-    bottom: 8vw; }
+    right: 5vw;
+    bottom: 6vw; }
   #business_legit .listing {
     z-index: -1;
     height: 21vw;
-    left: 5vw;
+    left: -3vw;
     top: 12vw; }
   #business_legit .circle-1 {
     width: 25vw;
     height: 25vw;
     background: rgba(250, 200, 184, 0.18);
     top: 6vw;
-    left: 23vw; }
+    left: 15vw; }
 
 /* Adoption */
 #adoption {
