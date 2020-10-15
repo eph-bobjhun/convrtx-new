@@ -200,9 +200,6 @@ p {
   vertical-align: middle !important;
   height: 100% !important; }
 
-.section {
-  border: 10px solid red; }
-
 .vertically-align {
   width: 100%;
   display: flex;
