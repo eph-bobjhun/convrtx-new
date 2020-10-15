@@ -61,13 +61,13 @@
 
 /* Light Bulb Moments */
 #light-bulb {
-  padding: 10vw 0 0vw 0; }
+  padding: 2vw 0; }
   #light-bulb .container {
     position: relative; }
   #light-bulb .flower {
     position: absolute;
     width: 20vw;
-    left: -2vw;
+    left: -5vw;
     top: -2vw; }
   #light-bulb .lamp {
     position: absolute;
