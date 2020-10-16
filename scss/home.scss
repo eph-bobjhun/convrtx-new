@@ -4,8 +4,9 @@
 .hero header {
     margin-bottom: 0px;
 }
-.hero-content{
-    margin-bottom: 7vw;
+.hero-content .container{
+    margin-bottom: 11vw;
+    position: relative;
 }
 .heart-string {
     position: absolute;
@@ -445,7 +446,7 @@
         line-height: 1.4;
     }
     .folder {
-        width: 35%;
+        width: 26vw;
         margin: auto 0;
     }
     .mask {
@@ -484,7 +485,7 @@
     position: relative;
     .text-header-medium { margin-bottom: 1vw; }
     .man-center {
-        width: 50%;
+        width: 38vw;
         margin: auto 0;
     }
     .bucket-shadow {
