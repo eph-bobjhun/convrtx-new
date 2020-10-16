@@ -887,7 +887,9 @@
         $(document).on({
             mouseenter: function(){
                 var tooltip = $(this).data('tooltip');
-                $('<div class="pp-tooltip ' + options.navigation.position +'">' + tooltip + '</div>').hide().appendTo($(this)).fadeIn(200);
+                if (tooltip != ''){
+                    $('<div class="pp-tooltip ' + options.navigation.position +'">' + tooltip + '</div>').hide().appendTo($(this)).fadeIn(200);
+                }
             },
             mouseleave: function(){
                 $(this).find('.pp-tooltip').fadeOut(200, function() {
